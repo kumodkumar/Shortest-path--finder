@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shortest Path Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Shortest Path Visualizer using Dijkstra's Algorithm</h1>
+    <div id="instructions">
+      <div id="left-instructions">
+        <p>Left-click:</p>
+        <ul>
+          <li>First click: Set start point</li>
+          <li>Second click: Set end point</li>
+        </ul>
+      </div>
+      <div id="grid-container"></div>
+      <div id="right-instructions">
+        <p>Right-click:</p>
+        <ul>
+          <li>Toggle walls</li>
+        </ul>
+      </div>
+    </div>
+    <div id="button-container">
+      <button id="start-button">Find Shortest Path</button>
+      <button id="refresh-button">Refresh</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
